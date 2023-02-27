@@ -67,9 +67,18 @@ a=float('3,8')
 v=3
 v-=1
 print(v)
-#24) Realizar la operacion 1 << 2 ¿Por qué da ese resultado? ¿Qué es el sistema de numeración binario?
+#24) Realizar la operacion 1 << 2 
+# ¿Por qué da ese resultado? porque hay un desplazamiento hacia la derecha en la cadena de numeros binarios
+# ¿Qué es el sistema de numeración binario? es un sistema de numeracion de 1´s y 0´s
 print(1<<2)
 
-#25) Realizar la operación 2 + '2' ¿Por qué no está permitido? ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?
-
+#25) Realizar la operación 2 + '2' 
+# ¿Por qué no está permitido?, Porque son de diferente tipo
+# ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?,si
+op=2 +'2'
 #26) Realizar una operación válida entre valores de tipo entero y string
+val1='10'
+val2=20
+val1=int(val1)
+suma=val1+val2
+print(val1+val2)
