@@ -76,7 +76,7 @@ print(1<<2)
 # ¿Por qué no está permitido?, Porque son de diferente tipo
 # ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?,si
 op=2 +'2'
-#26) Realizar una operación válida entre valores de tipo entero y string
+#26) Realizar una operación válida entre valores de tipo entero y string.
 val1='10'
 val2=20
 val1=int(val1)
